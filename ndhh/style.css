@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+:root {
+    --color: #b6895b;
+    --bg: #101010;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+
+/* section */
+section {
+    padding: 20px 170px;
+}
+
+.banner {
+    width: 100%;
+    min-height: 50.2rem;
+    background-image: url(ndahh.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.banner-text {}
+
+.banner-text h1 {
+    font-size: 3.4rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.banner-text p {
+    font-size: 0.934rem;
+    color: white;
+    margin: 0.5rem 0 1.4rem;
+}
+
+/* section background selesai */
